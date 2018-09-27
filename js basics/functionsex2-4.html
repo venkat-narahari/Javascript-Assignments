@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display here.</p> 
+
+<script>
+function calcCircumference(radius) {
+  var circumference = Math.PI * 2*radius;
+  document.getElementById("demo").innerHTML = "The circumference is " + circumference;
+}
+function calcarea(radius){
+  var area = Math.PI * radius*radius;
+  document.getElementById("demo").innerHTML = "The area is " + area;
+}
+calcarea(1);
+</script>
+</body>
+</html>
+

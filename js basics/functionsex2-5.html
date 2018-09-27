@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Display here.</p> 
+
+<script>
+function celsiusToFahrenheit(celsius) {
+  var celsiusInF = (celsius*9)/5 + 32;
+  document.getElementById("demo").innerHTML= celsius + '°C is ' + celsiusInF + '°F';
+}
+
+function fahrenheitToCelsius(fahrenheit) {
+  var fahrenheitInC = ((fahrenheit - 32)*5)/9;
+  document.getElementById("demo").innerHTML= fahrenheit + '°F is ' + fahrenheitInC + '°C';
+}
+
+celsiusToFahrenheit(100);
+</script>
+</body>
+</html>
+
